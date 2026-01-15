@@ -43,9 +43,9 @@ A real-world fisheye dataset for GNSS NLOS signal detection and semantic segment
 | 类别 ID (Pixel Value) | 类别名称 (Class Name) | 描述 (Description) | 可视化颜色 (RGB) |
 | :---: | :--- | :--- | :--- |
 | **0** | **Background** | 包含建筑物、植被、地面等所有遮挡物 (NLOS区域) | ⚫ (0, 0, 0) |
-| **1** (或 255) | **Sky** | 开阔天空区域，视为卫星信号可视区 (LOS区域) | ⚪ (255, 255, 255) |
+| **1** | **Sky** | 开阔天空区域，视为卫星信号可视区 (LOS区域) | ⚪ (255, 255, 255) |
 
-> **注意**：掩码图像为单通道 PNG，像素值仅包含 0 和 1（或部分版本为0和255，读取时建议归一化处理）。
+> **注意**：掩码图像为单通道 PNG，像素值仅包含 0 和 1（读取时建议归一化处理）。
 
 ---
 
@@ -65,5 +65,5 @@ data/FishNLOS-v1/
     ├── 281701_img_roi.png
     ├── ...
     └── 292223_img_roi.png
-
+---
 本仓库目前只存放50张图片，完整数据集待论文录用后公布
