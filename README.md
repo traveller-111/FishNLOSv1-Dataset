@@ -17,7 +17,8 @@ A real-world fisheye dataset for GNSS NLOS signal detection and semantic segment
 
 ---
 
-**2.数据采集流程** 该数据集采集于**北京市海淀区**典型的城市峡谷环境，涵盖了深层建筑峡谷、茂密植被遮挡及混合干扰等多种极具挑战性的真实场景。所有图像均经过精细的像素级标注，旨在为 GNSS 信号质量评估与多源融合定位提供可靠的数据支撑。
+## 2.数据采集流程 
+该数据集采集于**北京市海淀区**典型的城市峡谷环境，涵盖了深层建筑峡谷、茂密植被遮挡及混合干扰等多种极具挑战性的真实场景。所有图像均经过精细的像素级标注，旨在为 GNSS 信号质量评估与多源融合定位提供可靠的数据支撑。
 ·语义分割原始图片的采集均使用180° 超广角鱼眼相机，通过绕特定轨迹进行行走，将一片区域划分为500-600张鱼眼相机图片
 ·卫星Azi Ele 等数据采用ubloxGNSS芯片
 ·姿态角Yaw Pitch Roll 等数据采用IMU芯片
@@ -104,9 +105,8 @@ data/FishNLOS-v1/
 ---
 ## 6.结果展示
 我们利用该数据集训练的语义分割模型推理结果及其可视化如下
-<img width="404" height="513" alt="模型分割结果展示" src="https://github.com/user-attachments/assets/59d3108c-b302-47d6-9d32-064802bb877f" />
 每组样本包含四张子图，从左至右依次为：鱼眼相机原始RGB图像；模型推理生成的语义掩码；原始图像与预测掩码的叠加视图，用于展示边界对齐情况；人工标注的真值标签
-
+<img width="404" height="513" alt="模型分割结果展示" src="https://github.com/user-attachments/assets/59d3108c-b302-47d6-9d32-064802bb877f" />
 ---
 ## 7.Related Publication
 
