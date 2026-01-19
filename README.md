@@ -32,23 +32,32 @@ A real-world fisheye dataset for GNSS NLOS signal detection and semantic segment
 * **超广角全天域视野**: 采用 180° 鱼眼相机采集，能够捕捉完整的地平线以上空间信息，这是判定卫星可见性的前提。
 * **覆盖了四类最具挑战性的复杂场景**:
     *  **深层城市峡谷**: 密集高层建筑群，SVF极低。
-      ![286317_img_roi](https://github.com/user-attachments/assets/7d01f1f3-77ca-44ff-b62b-98b573d092a2)
-      ![286462_img_roi](https://github.com/user-attachments/assets/822b45ea-c963-4951-9402-c3d4662b572c)
-      ![286549_img_roi](https://github.com/user-attachments/assets/9ec6e792-3102-4932-97fc-8fc760ffd5e7)
+    <p align="center">
+       <img src="https://github.com/user-attachments/assets/7d01f1f3-77ca-44ff-b62b-98b573d092a2" width="32%" />
+       <img src="https://github.com/user-attachments/assets/822b45ea-c963-4951-9402-c3d4662b572c" width="32%" />
+       <img src="https://github.com/user-attachments/assets/9ec6e792-3102-4932-97fc-8fc760ffd5e7" width="32%" />
+    </p>
+     
     *  **高动态植被**: 道路两侧茂密行道树，包含大量非结构化遮挡。
-      ![286382_img_roi](https://github.com/user-attachments/assets/c9af047e-43d5-423a-a0de-de9e55de7b0b)
-      ![282032_img_roi](https://github.com/user-attachments/assets/bd8ac8f7-c04d-4bc1-ba66-119d8df0b7ca)
-      ![286401_img_roi](https://github.com/user-attachments/assets/1cc1f780-3c5b-48ad-ab72-962cc4d49212)
+      <p align="center">
+        <img src="https://github.com/user-attachments/assets/c9af047e-43d5-423a-a0de-de9e55de7b0b" width="32%" />
+        <img src="https://github.com/user-attachments/assets/bd8ac8f7-c04d-4bc1-ba66-119d8df0b7ca" width="32%" />
+        <img src="https://github.com/user-attachments/assets/1cc1f780-3c5b-48ad-ab72-962cc4d49212" width="32%" />
+      </p>
     *  **混合光照环境**: 包含正午强光及玻璃幕墙反光场景。
-      ![280659_img_roi](https://github.com/user-attachments/assets/8141e8b4-54d9-43fa-abb0-47821857a395)
-      ![280537_img_roi](https://github.com/user-attachments/assets/e481c120-9346-439f-8df3-35f3a2013ce3)
-      ![280623_img_roi](https://github.com/user-attachments/assets/396c0542-e231-4d31-8ce2-817d96450803)
+      <p align="center">
+        <img src="https://github.com/user-attachments/assets/8141e8b4-54d9-43fa-abb0-47821857a395" width="32%" />
+        <img src="https://github.com/user-attachments/assets/e481c120-9346-439f-8df3-35f3a2013ce3" width="32%" />
+        <img src="https://github.com/user-attachments/assets/396c0542-e231-4d31-8ce2-817d96450803" width="32%" />
+      </p>
 * **高精度像素级标注**: 针对植被间隙、建筑边缘及细微障碍物（如电线、路灯）进行了精细化分割标注。部分标注结果展示：
-      <img width="926" height="926" alt="280413_img_roi" src="https://github.com/user-attachments/assets/83530c39-7642-4550-93d3-40ca39f46db2" />
-      <img width="926" height="926" alt="280563_img_roi" src="https://github.com/user-attachments/assets/6e40e235-5e78-49b2-9c27-d5bfd85cfc94" />
-      <img width="926" height="926" alt="280617_img_roi" src="https://github.com/user-attachments/assets/631772b6-0b1a-45dd-9104-5e17a8999204" />
-      <img width="926" height="926" alt="280657_img_roi" src="https://github.com/user-attachments/assets/d8689190-9ea9-4943-b701-6382ff0e6389" />
-      <img width="926" height="926" alt="282338_img_roi" src="https://github.com/user-attachments/assets/371761b6-9f5b-4f3d-9f35-e18f0bb83af8" />
+      <p align="center">
+        <img src="https://github.com/user-attachments/assets/83530c39-7642-4550-93d3-40ca39f46db2" width="19%" alt="280413_img_roi" />
+        <img src="https://github.com/user-attachments/assets/6e40e235-5e78-49b2-9c27-d5bfd85cfc94" width="19%" alt="280563_img_roi" />
+        <img src="https://github.com/user-attachments/assets/631772b6-0b1a-45dd-9104-5e17a8999204" width="19%" alt="280617_img_roi" />
+        <img src="https://github.com/user-attachments/assets/d8689190-9ea9-4943-b701-6382ff0e6389" width="19%" alt="280657_img_roi" />
+        <img src="https://github.com/user-attachments/assets/371761b6-9f5b-4f3d-9f35-e18f0bb83af8" width="19%" alt="282338_img_roi" />
+      </p>
 ---
 
 ## 4.数据规格与标注说明 (Specifications)
