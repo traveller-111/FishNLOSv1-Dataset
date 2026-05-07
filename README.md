@@ -1,7 +1,7 @@
 # FishNLOS-v1: 城市峡谷GNSS非视距信号识别基准数据集
 A real-world fisheye dataset for GNSS NLOS signal detection and semantic segmentation in urban canyons
 
-> **官方数据集仓库**：论文《面向边缘端部署的语义分割模型HF-PSPNet：在复杂城市 GNSS NLOS 识别中的应用》所使用的核心数据集。
+> **官方数据集仓库**：论文《HF-PSPNet: An Edge-Oriented Semantic Segmentation Model for GNSS NLOS Identification in Complex Urban Canyons》所使用的核心数据集。
 > 本项目开源了 **FishNLOS-v1** —— 一个面向真实复杂城市峡谷场景的高分辨率鱼眼图像数据集。
 
 ---
