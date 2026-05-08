@@ -1,7 +1,6 @@
 # FishNLOS-v1: 城市峡谷GNSS非视距信号识别基准数据集
 A real-world fisheye dataset for GNSS NLOS signal detection and semantic segmentation in urban canyons
 
-> **官方数据集仓库**：论文《HF-PSPNet: An Edge-Oriented Semantic Segmentation Model for GNSS NLOS Identification in Complex Urban Canyons》所使用的核心数据集。
 > 本项目开源了 **FishNLOS-v1** —— 一个面向真实复杂城市峡谷场景的高分辨率鱼眼图像数据集。
 
 ---
@@ -18,10 +17,10 @@ A real-world fisheye dataset for GNSS NLOS signal detection and semantic segment
 ---
 
 ## 2.数据采集流程 
-该数据集采集于**北京市海淀区**典型的城市峡谷环境，涵盖了深层建筑峡谷、茂密植被遮挡及混合干扰等多种极具挑战性的真实场景。所有图像均经过精细的像素级标注，旨在为 GNSS 信号质量评估与多源融合定位提供可靠的数据支撑。
+该数据集采集于**海淀区**典型的城市峡谷环境，涵盖了深层建筑峡谷、茂密植被遮挡及混合干扰等多种极具挑战性的真实场景。所有图像均经过精细的像素级标注，旨在为 GNSS 信号质量评估与多源融合定位提供可靠的数据支撑。
 ·语义分割原始图片的采集均使用180° 超广角鱼眼相机，通过绕特定轨迹进行行走，将一片区域划分为500-600张鱼眼相机图片
-·卫星Azi Ele 等数据采用ubloxGNSS芯片
-·姿态角Yaw Pitch Roll 等数据采用IMU芯片
+·卫星Azi Ele 等数据由rtkplot解析出
+·姿态角Yaw Pitch Roll 等数据采用姿态传感器得到
 数据采集时的轨迹和实拍如下
 
 <p align="center">
@@ -71,7 +70,7 @@ A real-world fisheye dataset for GNSS NLOS signal detection and semantic segment
 | **分辨率** | $926 \times 926$ 像素 |
 | **图像格式** | `.jpg` (RGB 3通道) |
 | **标签格式** | `.png` (单通道灰度图) |
-| **采集地点** | 中国北京·海淀区花园路街道及周边 |
+| **采集地点** | 海淀区 |
 
 ### 2. 类别定义 (Class Definitions)
 本数据集主要用于区分“可视区域”与“遮挡区域”，标签定义如下：
